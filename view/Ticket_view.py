@@ -132,13 +132,13 @@ sold=BooleanVar(value= False)
 ttk.Combobox(window,values=['Yes','No'],state='readonly').place(x=100,y=380)
 
 
-
+#todo
 #date
 Label(window,text='date').place(x=365,y=380)
 date=StringVar()
 ttk.Combobox(window,values=['','',''],state='readonly').place(x=400,y=380)
 
-
+#todo
 #city
 Label(window,text='city').place(x=600,y=380)
 city=StringVar()
